@@ -17,9 +17,6 @@ int main(){
             cout<<n<<" ";
         }if (n>45){
             break;
-        }
-        
+        }   
     }
-    
-
 }

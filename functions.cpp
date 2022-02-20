@@ -7,7 +7,7 @@ void print(char a){
 }
 
 int main(){
-    const b="Hello world!";
+    const b*="Hello world!";
 
     print(b);
 

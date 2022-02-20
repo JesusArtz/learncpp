@@ -27,7 +27,7 @@ int main ()
 
     while (opcion!='n')
     {
-        system ("cls");
+        system ("clear");
         cout<<"> Ejercicio 6"<<endl<<endl;
         cout<<"> Ingrese una palabra: ";
         cin>>palabra;
@@ -42,8 +42,8 @@ int main ()
         cout<<"> Desea hacer una nueva operacion? (s/n): ";
         cin>>opcion;
 
-        if (opcion=='n')
-        {
+        if (opcion=='n'){
+            system("clear");
             exit(0);
         }
     }

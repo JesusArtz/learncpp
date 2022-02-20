@@ -8,8 +8,7 @@ int main(){
     int c=0, i=0;
 
     cin>>n;
-    while(c<n){
-        c = c+1;
+    for(c=0;c<n;c++){
         i = i+2;
         cout<<i<<" ";
     }

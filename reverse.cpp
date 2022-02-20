@@ -28,7 +28,7 @@ int main ()
     while (opcion!='n')
     {
         system ("clear");
-        cout<<"> Ejercicio 6"<<endl<<endl;
+        cout<<"> Reversion de palabras"<<endl<<endl;
         cout<<"> Ingrese una palabra: ";
         cin>>palabra;
 
@@ -39,10 +39,10 @@ int main ()
 
         invertidor (cadena,longitud);
 
-        cout<<"> Desea hacer una nueva operacion? (s/n): ";
+        cout<<"> ¿Quieres hacer una nueva conversion? (s/n): ";
         cin>>opcion;
 
-        if (opcion=='n'){
+        if (opcion=='n' or opcion=='N'){
             system("clear");
             exit(0);
         }
